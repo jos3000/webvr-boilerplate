@@ -159,7 +159,7 @@ cube.position.z = -1;
 // Add cube mesh to your three.js scene
 scene.add(cube);
 
-var cube2 = new THREE.Mesh(geometry, new THREE.MeshNormalMaterial({wireframe: 1}));
+var cube2 = new THREE.Mesh(geometry, new THREE.MeshPhongMaterial());
 cube2.position.x = -1;
 scene.add(cube2);
 
